@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   try {
     const clientId = '217rc9ici3mqaa768m3u2pllti';
     const clientSecret = '1oh0egllgs3coo5s34j75m6msecbgim8qkho535m6igcrs20iq96'; // Store this in environment variables for security
-    const redirectUri = 'http://localhost:3000';
+    const redirectUri = 'https://main.d27waaueioitu2.amplifyapp.com/';
 
     const base64Credentials = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
 
