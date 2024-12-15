@@ -52,7 +52,7 @@ const Header = () => {
       setUsername(null);
       window.location.href = '/';
     } else {
-      window.location.href = "https://us-west-1ychwtpjpy.auth.us-west-1.amazoncognito.com/login?client_id=217rc9ici3mqaa768m3u2pllti&redirect_uri=http://localhost:3000&response_type=code&scope=email+openid+phone";
+      window.location.href = "https://us-west-1ychwtpjpy.auth.us-west-1.amazoncognito.com/login?client_id=217rc9ici3mqaa768m3u2pllti&redirect_uri=https://main.d27waaueioitu2.amplifyapp.com&response_type=code&scope=email+openid+phone";
     }
   };
 
